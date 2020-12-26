@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⛄   Bon Nadal!🎅   ⛄</title>
+    <link rel="stylesheet" href="styles.scss">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <script type="text/javascript" src="scripts.js"></script>
+<body>
+<!-- <a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com</a>-->
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<div class="w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 fixed z-50 shadow" >
+  <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+    <div class="p-4 flex flex-row items-center justify-between">
+      <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Bones festes</a>
+      <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+          <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+          <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    </div>
+    <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+      <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#ess">Que es?</a>
+      <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#fer">Que fer?</a>
+      <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#whack">Whack-a-Grinch</a>
+    </nav>
+  </div>
+</div>
+    <section class="flex w-full h-2/4 heroChristmas items-center  pt-8 ">
+        <img class="mx-auto imgHero p-8 rounded-2xl" style="background-color: rgb(242, 242, 242, 0.95)" src="logoNadal.png">
+    </section>
+
+    <section id="ess" class="w-full flex flex-col items-center p-16 what">
+        <div class="max-w-screen-xl flex flex-col">
+            <h1 class="text-3xl mb-8">Que és el nadal?</h1>
+
+            <div class="grid lg:grid-cols-2 md:grid-cols-1">
+                <div class="flex items-center justify-center">
+                    <p>Nadal és la festivitat cristiana del naixement de Jesús que correspon al 25 de desembre, i el cicle de temps entre l'advent i l'epifania. És, juntament amb la Pasqua, la festa cristiana més important. De les esglésies cristianes, la Catòlica, la Protestant i algunes de les Esglésies Ortodoxes autocèfales, com ara la grega, la romanesa i la búlgara, celebren Nadal el 25 de desembre (la tradició afirma que des de Liberi I). Altres Esglésies Ortodoxes autocèfales, en canvi, com ara la de Constantinoble i la russa, el celebren el 7 de gener, ja que no van acceptar el calendari gregorià que va reformar el calendari julià de l'època romana. </p>
+                </div>
+                <div class="w-full flex justify-center"> 
+                    <img  class="imgNadal te" loading=lazy src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Adoration_of_the_shepherds%2C_by_Gerard_van_Honthorst.jpg/1280px-Adoration_of_the_shepherds%2C_by_Gerard_van_Honthorst.jpg">
+  
+                </div>
+             </div>
+        </div>
+        
+
+    </section>
+<!--card amb coses interesants-->
+    <section id="fer" class="w-full flex flex-col items-center p-16">
+        <div class="max-w-screen-xl flex flex-col">
+            <h1 class="text-3xl mb-8 ">Que és pot fer per nadal?</h1>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-1 gap-4">
+                <div class="wrapper antialiased text-gray-900">
+                    <div>
+                        
+                        <img src="https://lh3.googleusercontent.com/proxy/gGdB8WyPXSW4r_CH9KZvw-PmG4YT3XwaHOdXTp8pci44l7Hh8pRxsakFf6ybv_6fyWvZr49_4tWDX6nFuz6Fuq8oG-OuUsXN-ffWqmEthOifIKHCbxHGtWqP1e98vKPjuPcal6IF63BfEC-0ZO3hCZMj9L5Jnw" alt=" random imgee" class="w-full object-cover object-center rounded-lg shadow-md imgCard">    
+                        
+                     <div class="relative px-4 -mt-16  ">
+                       <div class="bg-white p-6 rounded-lg shadow-lg">
+                        
+                        <h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Passar temps amb familia</h4>
+                     
+                      <div class="mt-1">
+                        Sempre esta bé estar amb la gent que estimes mentrés es portin bé
+                      </div>
+                      <div class="mt-4">
+                        <span class="text-teal-600 text-md font-semibold">4/5 estrelles </span>
+                        <span class="text-sm text-gray-600">de diversió</span>
+                      </div>  
+                      </div>
+                     </div>
+                      
+                    </div>
+                    </div>
+                    <div class="wrapper antialiased text-gray-900">
+                        <div>
+                            
+                            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/collection-of-christmas-present-boxes-royalty-free-image-875268918-1541432342.jpg" alt=" random imgee" class="w-full object-cover object-center rounded-lg shadow-md imgCard">    
+                            
+                         <div class="relative px-4 -mt-16  ">
+                           <div class="bg-white p-6 rounded-lg shadow-lg">
+                            
+                            <h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Anar de compres</h4>
+                         
+                          <div class="mt-1">
+                            Comprarte coses boniques i poder fer regals es vital del nadal
+                          </div>
+                          <div class="mt-4">
+                            <span class="text-teal-600 text-md font-semibold">3/5 estrelles </span>
+                            <span class="text-sm text-gray-600">de diversió</span>
+                          </div>  
+                          </div>
+                         </div>
+                          
+                        </div>
+                        </div>
+                        <div class="wrapper antialiased text-gray-900">
+                            <div>
+                                
+                                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lights4fun-snowy-christmas-tree-1601420137.jpg?crop=0.961xw:0.721xh;0.0153xw,0.202xh&resize=640:*" alt=" random imgee" class="w-full object-cover object-center rounded-lg shadow-md imgCard">    
+                                
+                             <div class="relative px-4 -mt-16  ">
+                               <div class="bg-white p-6 rounded-lg shadow-lg">
+                                
+                                <h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Decorar de forma nadalenca</h4>
+                             
+                              <div class="mt-1">
+                                Gran part del nadal solament es lo visual que porta
+                              </div>
+                              <div class="mt-4">
+                                <span class="text-teal-600 text-md font-semibold">5/5 ratings </span>
+                                <span class="text-sm text-gray-600">de diversió</span>
+                              </div>  
+                              </div>
+                             </div>
+                              
+                            </div>
+                            </div>
+                            <!--Fi-->
+            </div>
+
+     </div>
+    </section>
+    <!-- Christmas whackAmole-->
+    <section id="whack" class="w-full grid justify-center my-4 ">
+        <div class="bg-yellow-100 lg:p-8 py-8 rounded-xl border-solid border-4 border-gray-100 place-self-center">
+            <div class="flex align-items-center  flex-col ">
+                <h1 class="mb-2 text-3xl">Whack-a-Grinch! </h1>
+                <h1 class="mb-5 text-xl">Puntuació : <span class="score">0</span></h1>
+                <div class="text-center">
+                    <button class="uppercase px-8 py-2 bg-yellow-300 text-yellow-600 max-w-max shadow-sm hover:shadow-md" onClick="startGame()">Start!</button>
+                </div>
+                
+            </div>
+            <div class="game">
+                <div class="hole hole1">
+                  <div class="mole"></div>
+                </div>
+                <div class="hole hole2">
+                  <div class="mole"></div>
+                </div>
+                <div class="hole hole3">
+                  <div class="mole"></div>
+                </div>
+                <div class="hole hole4">
+                  <div class="mole"></div>
+                </div>
+                <div class="hole hole5">
+                  <div class="mole"></div>
+                </div>
+                <div class="hole hole6">
+                  <div class="mole"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    
+    
+    <footer class="bg-gray-300 h-8">
+        <p class="text-center text-gray-700 font-bold">Fet per Pau Sardà</p>
+    </footer>
+   <div class="fixed bottom-10 right-10 px-8 py-2 rounded-2xl" style="background-color: rgb(254, 254, 254, 0.9)" ><p id="days"></p></div> 
+</body> 
+</html>
