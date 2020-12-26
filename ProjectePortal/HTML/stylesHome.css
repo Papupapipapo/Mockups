@@ -1,0 +1,630 @@
+/* Comu*/
+.borde{
+	border: 1px solid black;
+}
+
+.centrat{
+	align-self: center;  
+	justify-content: center;
+ 	align-items: center;
+}
+
+.block{
+	display:block;
+	text-align:center;
+	font-size: 40px;
+}
+.flex{
+	display:flex;
+}
+.column{
+	flex-direction: column;
+}
+p,a,li,button,.tag{
+	font-family: 'Lato', sans-serif;
+}
+.boldtit,h2,h3,h4,#footerlog,.titjoc{
+	font-weight: bold;
+	color:#1C1D21;
+	font-family: 'Fredoka One', cursive !important;
+}
+
+.white{
+	background-color:#fdfdfe;
+}
+/*						--------------------------Head 					*/
+body{
+	margin:0;
+	background-color: #EEEFF7;
+}
+.modalHeight{
+	height:90%;
+}
+.prioriModal{
+	z-index: 999 !important;
+}
+#recor{
+	margin-left: 5px;
+}
+#contingut{
+	background-color: #31353D;
+
+}
+.head{
+	height :75px;
+	background-color: #92CDCF;
+}
+.title{
+	flex-grow:1;
+	margin-left:30px;
+	font-size:28px;
+	font-height:15vh;
+	text-decoration: none;
+	
+}
+.login{
+	justify-content: right;
+	flex-grow:1;
+	margin-left: auto;
+	margin :10px;
+	margin-right:30px;
+}
+.logintit{
+	border-radius: 5px;
+}
+.logintit img{
+	width:54px;
+	height:100%;
+}
+.logintit a{
+ 	 width:210px;
+}
+
+
+/* MENU */
+
+.menu{
+	padding-top: 5px;
+	position: fixed;
+	/*width:80px;*/
+	width:8vh;
+	min-width: 60px;
+	top: 25vh;
+	z-index: 150;
+	background: white;
+	min-height: 325px;
+}
+.ico{
+	width:5vh;
+	min-width: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.linverti{
+	border-bottom: 2px solid black;
+	width:100%;
+}
+
+
+
+
+/*						--------------------------Featured 					*/
+
+
+.featured{
+  height: 500px;
+  margin-left: 16%;
+  margin-right: 16%;
+  
+  margin-bottom: 40px;
+  background-color: #eceef1;
+}
+
+.izq{
+  flex-grow:2;
+  height:100%;
+  background-image:url("img/hotline.jpg");
+  position:relative;
+  background-size: cover;
+  width:100%;
+}
+
+.izq p{
+	position:absolute;
+	bottom:5px;
+	left: 10px;
+	font-size: 36px;
+	color:white;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.der{
+	height:100%;
+	flex-grow:1;
+	justify-content: center;
+	width:50%;
+
+}
+#desc{
+	flex-grow:3;
+	padding-left:10px; 
+	padding-right:10px; 
+}
+#info{
+	padding-left:10px; 
+	padding-right:10px; 
+
+}
+.alinea{
+	align-items: center;
+}
+#info img{
+		height:30px;
+		margin-right: 5px;
+	}
+
+/* POPULARS */
+#populars .gallery{
+	padding-top: 20px;
+	background-color: #eceef1;
+}
+.gallery{
+	padding-left:115px; 
+	padding-right:115px;
+
+}
+.fila{
+	justify-content: center;
+  	margin-bottom: 20px;
+}
+.jocs div{
+	margin-left: 25px;
+	margin-right: 25px;
+	flex-grow:1;
+	background-image:url("img/placeholder.png");
+	background-size: cover;
+	height:25vh;
+}
+
+
+
+/*Generes*/
+.generes{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.genere{
+	margin-left: 25px;
+	margin-right: 25px;
+	flex-grow:1;
+	width:50%;
+	min-width: 270px;
+}
+
+.juegomain{
+	flex-grow:1.25;
+	background-image:url("img/placeholder.png");
+	background-size: cover;
+	height:22vh;
+	margin-right: 25px;
+	min-width: 150px;
+}
+.juegomini, .princi{
+	flex-grow:1;
+}
+.juegomini{
+	min-width: 130px;
+}
+.juegomini .sub{
+	flex-grow:1;
+	background-image:url("img/placeholder.png");
+	background-size: cover;
+	height:9vh;
+	margin-right: 10px;
+	align-self: center;
+	
+}
+#juegos,#gemu{
+	background-color: #31353D;
+}
+#gemu .mesjocs,#masjocs{
+	background-color: #fdfdfe;
+}
+#gemu{
+	padding-top: 20px;
+}
+#juegos .generes{
+	padding-bottom: 20px;
+	border-radius: 5px;
+}
+.cargamas{
+	background-color: #92CDCF;
+}
+
+/*footer*/
+.footer{
+	background: #445878;
+	
+}
+.footer li{
+	color:#EEEFF7;
+}
+#tit{
+	flex-grow: 2;
+}
+.izqFoot{
+	flex-grow: 2;
+	margin-left: 20px;
+	
+}
+.izqFoot div{
+	flex-grow: 1;
+	margin-left: 20px;
+}
+
+.izqFoot h3 {
+  margin-bottom: 5px;
+}
+.izqFoot ul {
+  list-style-type: none;
+  padding-left: 10px;
+	margin-top: 0;
+}
+
+.vertical{
+	border-left: 1px solid black;
+}
+
+.derFoot{
+	flex-grow: 1;
+}
+.derFoot button{
+	flex-grow: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+	height:40px;
+}
+.derFoot button{
+	border-radius: 15px;
+}
+#face{
+	background-color: #4e6eb5;
+	border: #4e6eb5 1px solid;
+	color:white;
+	font-weight: bold;
+}
+
+#Twitter{
+	background-color: #77bfe6;
+	border:#77bfe6 1px solid;
+	color:white;
+	font-weight: bold;
+}
+#youtub{
+	background-color:#ff0000;
+	border:#ff0000 1px solid;
+	color:black;
+	font-weight: bold;
+}
+/*POP UP*/
+.extend{
+	height:100%;
+	min-height: 320px;
+}
+.popup div, .popup button{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width:40vh;
+}
+.textfielem label{
+	display:block;
+}
+
+.textfielem, .textfielem input{
+	width: 100% !important;
+}
+
+.modalHeight button,#create{
+	border-radius: 10px;
+	height:40px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+
+#loginG{
+	background-color: #F26101;
+	border:#F26101 1px solid;
+}
+#inicio{
+	background-color: #91BED4;
+	border:#91BED4 1px solid;
+	
+}
+#create{
+	background-color: #304269;
+	border:#304269 1px solid;
+	color:white;
+}
+
+@media screen and (max-width: 991px) , handheld {
+	
+	body{
+		min-width: 283px;
+		min-height:600
+	}
+	.pc{
+		display:none;
+	}
+	
+	
+	.popup div, .popup button{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width:80%;
+}
+
+	/*Header*/
+	.title{
+		text-align: center;
+	}
+	.title:after{
+		content:"jj.es";
+	}
+	/*Menu*/
+	.menu{
+		left: -300px;
+		width:6vh;
+		min-width:50px;
+	}
+	.arrow{
+		background: white;
+		text-align: center;
+		width: 50px;
+		padding-top: 5px;
+	}
+	.ico{
+		min-width: 40px;
+	}
+	.arrow img{
+		height:30px;
+	}
+	.sideButt{
+		position: fixed;
+		/*width:80px;*/
+		top: 50vh;
+		z-index: 100;
+	}
+	#offNav{
+		transform: rotate(180deg);
+	}
+	.close{
+		left:100%;
+		position:absolute;
+		top: 25vh;
+	}
+	/*Banner*/
+	.banner{
+		height:300px;
+		background-image:url("img/hotline.jpg");
+		background-size: cover;
+		position: relative;
+	}
+	.ad{
+		position: absolute;
+		background: white;
+		right: 20px;
+		align-items: center;
+		padding-left: 5px;
+		padding-right: 5px;
+		border-radius: 10px;
+
+	}
+	.ad img{
+		height:30px;
+		margin-right: 5px;
+	}
+	#appl{
+		bottom:93px;
+	}
+	#andro{
+		bottom:30px
+	}
+
+	/*Populars movil*/
+	#popu:after{
+		content:"Mas populares mobil";
+	}
+	#popu{
+		font-size: 30px;
+	}
+	.block{
+		margin-top: 0;
+	}
+	.block p{
+		font-size:36px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.gallery{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.jocs div{
+		margin-left: 10px;
+		margin-right: 10px;
+		min-height: 8vh;
+		height: 0;
+		position: relative;
+		padding-top: 10%;
+		border-radius: 15px;
+	}
+	.jocs p{
+		position: absolute;
+		bottom: -40px;
+	}
+	.movil .fila {
+		margin-bottom: 50px;
+	}
+
+	/*			Mas juegos			*/
+	#masjocs  p{
+		font-size:36px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-weight: bold;
+	color:#1C1D21;
+	font-family: 'Fredoka One', cursive !important;
+	}
+
+
+	.mesjocs{
+		height:10vh;
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 20px;
+	}
+	
+
+	.splash{
+		background-image:url("img/placeholder.png");
+		background-size: cover;
+		height:8vh;
+		margin-left: 10px;
+		margin-right: 10px;
+		flex-grow: 1.25;
+		border-radius: 5px;
+	}
+	.titjoc{
+		flex-grow: 2;
+		align-self: center;
+		width:20%;
+	}
+	.tags{
+		padding-top: 5px;
+	}
+	.tag{
+		background: grey;
+		margin-right: 10px;
+		width:15vh;
+		padding-left: 10px;
+		border-radius: 10px;
+		font-size: 15px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+	
+	.iconss{
+		flex-grow: 1;
+		align-self:flex-end;
+		margin-right: 10px;
+		width:3%;
+		margin-bottom: 8px;
+		justify-content: flex-end;
+	}
+	.iconss div{
+		height:3vh;
+		width:3vh;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-left: 0.5vh;
+		margin-right: 0.5vh;
+	}
+	.android{
+		background-image:url("icons/android.png");
+	}
+	.apple{
+		background-image:url("icons/apple.png");
+	}
+	.phone{
+		background-image:url("icons/phone.png");
+	}
+	
+	.cargamas{
+		margin-left: 20%;
+		margin-right: 20%;
+		justify-content: center;
+		margin-bottom: 10px;
+		border-radius: 20px;
+		
+	}
+	.cargamas img{
+		height:25px;
+	}
+	.cargamas p{
+		margin-left: 5px;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+
+	/*Footer movil*/
+	#footerlog{
+		text-align: center;
+		font-size: 26px;
+		margin-bottom: 5px;
+	}
+
+	.infor{
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: center;
+	}
+	.infor div{
+		width:50%;
+		flex-grow: 1;
+	}
+
+	#socialt{
+		font-size: 20px;
+	}
+	.lists{
+		text-align: left;
+		padding-left: 0;
+		margin-top: 0px;
+	}
+	.infor p{
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+	.lists li{
+		list-style-type: none;
+	}
+	.socials{
+		width: 100%;
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: table;
+		text-align: center;
+	}
+	.socials div{
+		width: 32%;
+		display:table-cell;
+	}
+	.socials img{
+		height:40px;
+	}
+}
+
+
+@media screen and (min-width: 992px){
+	.movil{
+		display:none;
+	}
+	.title:before{
+		content:"juegajuegos.es";
+	}
+	#popu:before{
+		content:"POPULARES DE LA SEMANA";
+	}
+	.modalHeight{
+		max-width:600px;	
+		font-size:20px;
+	}
+	#contingut{
+		padding-top: 40px;
+	}
+}

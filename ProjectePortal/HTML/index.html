@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>HOMEPAGE - juegajuegos.es</title>
+	<link rel="stylesheet" type="text/css" href="stylesHome.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Lato&display=swap" rel="stylesheet"> 
+	<!--Serveix per al modal del pop up de login -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+</head>
+
+<body>
+	<header class="head borde flex">
+		<a class="title boldtit centrat" href="index.html"></a>
+		
+		<div class="login flex pc">
+			<div onclick="document.getElementById('id01').style.display='block'" class ="logintit white flex borde">
+				<img src="img/placeholder.png">
+				<a class="centrat flex" >Iniciar sesion</a>
+			</div>
+		</div>
+	</header>
+
+  <div id="id01" class="w3-modal prioriModal">
+    <div class="w3-modal-content modalHeight w3-animate-top">
+      <div class="w3-container extend column flex centrat popup">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <button id="loginG"> Conectate con Google</button>
+		
+		  <div class="linverti"></div>
+		
+		  <div class="textfields">
+			<div class="textfielem">
+			  <label>Nom</label>
+				<input type="text" name="nom" value="">
+			</div>
+			<div class="textfielem">
+			  <label>Contrasenya</label>
+			  <input type="password" name="pass" value="">
+			</div>
+		</div>
+		  
+		 <div class="flex loginn">
+			 <div class="flex">
+			  	<input type="checkbox" name="recorda" value="recor">
+				<label  id="recor" for="vehicle2"> Recuerdame</label>
+			 </div>
+			 <button id="inicio"> Iniciar Session</button>
+		 </div>
+		  <button id="create" onclick=" window.open('register.html');">Crear usuario</button>
+      </div>
+    </div>
+  </div>
+
+	<div class="movil sideButt borde arrow">
+		<img id="offNav" onclick="openNav()" src="icons/arrow.png">	
+	</div>
+	
+	<nav id="sideNav" class=" menu borde ">
+		<div class="flex column centrat">
+			<img id="search"	class="ico" src="icons/magnifying-glass.png">
+
+			<img id="generess"	class="ico" src="icons/menu.png">
+			<img id="fav"		class="ico" src="icons/crown.png">
+			<img id="favor"		class="ico" src="icons/heart.png">
+			<div class="linverti"></div>
+			<img id="userlog"	onclick="document.getElementById('id01').style.display='block'" class=" ico" src="icons/user.png">
+			<img id="historial"	class=" ico" src="icons/history.png">
+		</div>
+		<div class="close arrow borde movil">
+			<img id="actNav" onclick="closeNav()" src="icons/arrow.png">
+		</div>
+	</nav>
+	
+	<section id="contingut">
+		
+		<div class="pc featured flex centrat borde ">
+			
+				<div class="izq borde">
+					<p>Hotline Miami</p>
+				</div>
+
+				<div class="der column flex">
+					<div class="borde" id="desc"><p>Hotline Miami is a high-octane action game overflowing with raw brutality, hard-boiled gunplay and skull crushing close combat. Set in an alternative 1989 Miami, you will assume the role of a mysterious antihero on a murderous rampage against the shady underworld at the behest of voices on your answering machine. Soon you'll find yourself struggling to get a grip of what is going on and why you are prone to these acts of violence.
+ </p></div>
+					<div class="borde flex column" id="info">
+						<div class="flex alinea ">
+							<img src="icons/usr.png">
+							<p>Un jugador</p>
+						</div>
+						<div class="flex alinea">
+							<img src="icons/action.png">
+							<p>Accion</p>
+						</div>
+
+							</div>
+				</div>
+			
+		</div>
+		
+		<div class="movil banner">
+				<div id="appl" class="ad flex ">
+					<img src="icons/apple.png"><p>Descarga ya</p>
+				</div>
+
+				<div id="andro" class="ad flex">
+					<img src="icons/android.png"><p>Descarga ya</p>
+				</div>
+				
+		</div>
+		
+		<div id="populars">
+			<div class="block borde white">
+				<p id="popu" class="boldtit"></p>
+			</div>
+			
+			<div class="gallery column flex">
+				<div class="pc">
+					<div class="fila flex jocs">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div  class="fila flex jocs">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+				<div class="movil">
+					<div  class="fila flex jocs">
+						<div><p>Juego 1</p></div>
+						<div><p>Juego 2</p></div>
+						<div><p>Juego 3</p></div>
+						<div><p>Juego 4</p></div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		
+		<div id="anunci" class="block borde pc boldtit white">
+			<p>ANUNCI</p>
+		</div>
+		
+		<div id="masjocs" class="movil block borde boldtit">
+			<p>Mas juegos</p>
+		</div>
+
+	<div id="juegos" class="pc">
+			<div class="flex generes column white">
+				<div class="fila flex ">
+					
+					<div class="genere">
+						<div>
+							<img>
+							<h4> Juegos de Lucha</h4>
+						</div>
+						
+						<div class="flex">
+							<div class="juegomain"></div>
+							<div class="juegomini column flex">
+								<div  class="flex princi  ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								<div class="flex princi ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="genere">
+						<div>
+							<img>
+							<h4> Juegos de Accion</h4>
+						</div>
+						
+						<div class="flex">
+							<div class="juegomain"></div>
+							<div class="juegomini column flex">
+								<div  class="flex princi  ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								<div class="flex princi ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+
+			</div>
+			<div class="fila flex">	
+				<div class="genere">
+					<div>
+						<img>
+						<h4> Juegos de Terror</h4>
+					</div>
+					
+					<div class="flex">
+							<div class="juegomain"></div>
+							<div class="juegomini column flex">
+								<div  class="flex princi  ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								<div class="flex princi ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								
+							</div>
+						</div>
+				</div>
+				
+				<div class="genere">
+					<div>
+						<img>
+						<h4> Juegos de Multijugador</h4>
+					</div>
+					
+					<div class="flex">
+							<div class="juegomain"></div>
+							<div class="juegomini column flex">
+								<div  class="flex princi  ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								<div class="flex princi ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								
+							</div>
+						</div>
+				</div>
+
+			</div>
+
+			<div class="fila flex">
+				<div class="genere">
+					<div>
+						<img>
+						<h4> Juegos de Clicker</h4>
+					</div>
+					
+					<div class="flex">
+							<div class="juegomain"></div>
+							<div class="juegomini column flex">
+								<div  class="flex princi  ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								<div class="flex princi ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								
+							</div>
+						</div>
+				</div>
+				
+				<div class="genere">
+					<div>
+						<img>
+						<h4> Juegos de Puzles</h4>
+					</div>
+					
+					<div class="flex">
+							<div class="juegomain"></div>
+							<div class="juegomini column flex">
+								<div  class="flex princi  ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								<div class="flex princi ">
+									<div class="sub"></div>
+									<div class="sub"></div>
+								</div>
+								
+							</div>
+						</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+		<div id="gemu" class="movil">
+			<div class="flex column">
+
+					<div class=" borde mesjocs flex">
+						<img class="splash centrat">
+						
+						<div class="column flex titjoc">
+							<div>
+								Juego 1
+							</div>
+							<div class="tags flex">
+								<div class="tag"> Tag1</div>
+								<div class="tag"> Tag2</div>
+							</div>
+						</div>
+
+						<div class="iconss flex">
+								<div class="android"></div>
+								<div class="apple"></div>
+								<div class="phone"></div>
+						</div>
+					</div>
+
+				<div class=" borde mesjocs flex">
+						<img class="splash centrat">
+						
+						<div class="column flex titjoc">
+							<div>
+								Juego 2
+							</div>
+							<div class="tags flex">
+								<div class="tag"> Tag1</div>
+								<div class="tag"> Tag2</div>
+							</div>
+						</div>
+
+						<div class="iconss flex">
+								<div class="android"></div>
+						</div>
+					</div>
+
+				<div class=" borde mesjocs flex">
+						<img class="splash centrat">
+						
+						<div class="column flex titjoc">
+							<div>
+								Juego 3
+							</div>
+							<div class="tags flex">
+								<div class="tag"> Tag1</div>
+								<div class="tag"> Tag2</div>
+							</div>
+						</div>
+
+						<div class="iconss flex">
+								<div class="android"></div>
+								<div class="phone"></div>
+						</div>
+					</div>
+				
+					<div class="cargamas  borde flex">
+						<div class="centrat flex">
+							<img class="centrat" src="icons/more.png"><p class="centrat">Cargar mas</p>
+						</div>
+					</div>
+			</div>
+		</div>	
+		
+		
+	</section>
+	
+	
+	
+		<footer class="footer border">
+			<div class="pc flex">
+				<div class="izqFoot flex">
+					<div id="tit" class="centrat flex">
+						<h2 class="boldtit ">jj.es</h2>
+					</div>
+
+					<div >
+						<h3>Genero</h3>
+						<ul>
+							<li>Lucha</li>
+							<li>Accion</li>
+							<li>Terror</li>
+							<li>Multijugador</li>
+							<li>Clicker</li>
+							<li>Puzzle</li>
+						</ul>
+					</div>
+
+					<div >
+						<h3>Recursos</h3>
+						<ul>
+							<li>Desarrollador</li>
+							<li>Afiliado</li>
+							<li>Media Kit</li>
+						</ul>
+					</div>
+
+					<div >
+						<h3>Soporte</h3>
+						<ul>
+							<li>Asistencia</li>
+							<li>FAQ</li>
+						</ul>
+					</div>
+					<div >
+						<h3>Legal</h3>
+						<ul>
+							<li>Términos de uso</li>
+							<li>Privacidad</li>
+							<li>Cookies</li>
+							<li>About</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="vertical">
+				</div>
+					<div class="derFoot centrat flex">
+						<button id="face"> Facebook</button>
+						<button id="Twitter"> Twitter</button>
+						<button id="youtub"> Youtube</button>
+					</div>
+			</div>
+			
+			<div class="movil flex centrat">
+				<div style="width: 100%;">
+					<div class=" boldtit">
+						<p id="footerlog">jj.es</p>
+					</div>
+					<div class="flex infor">
+						<div class="flex column">
+							<p class="boldtit">Sobre nosotros</p>
+							<ul class="centrat lists">
+								<li>Sobre nosotros</li>
+								<li>Contacta</li>	
+								<li>FAQ</li>
+							</ul>
+						</div>
+			
+						<div class="flex column">
+							<p  class="boldtit">Texto Legal</p>
+							<ul class="centrat lists">
+								<li>Términos de uso</li>
+								<li>Privacidad</li>	
+								<li>﻿Cookies</li>
+								<li>About</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="column flex centrat">
+						<div id="socialt" class=" boldtit">Social</div>
+						<div class="socials flex ">
+							<div>
+								<img src="icons/face.png">
+							</div>
+							<div>
+								<img src="icons/tweet.png">
+							</div>
+							<div>
+								<img src="icons/youtube.png">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+	
+		
+	<script>
+function openNav() {
+  document.getElementById("sideNav").style.left = "0px";
+  document.getElementById("offNav").style.display = "none";
+}
+
+function closeNav() {
+  document.getElementById("sideNav").style.left = "-300px";
+  document.getElementById("offNav").style.display = "inline";
+}
+</script>
+</body>
+</html>

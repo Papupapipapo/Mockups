@@ -1,0 +1,31 @@
+
+.middle{
+	height:50vh;
+	justify-content: center;
+	 overflow: hidden;
+}
+.conteni div, .conteni button{
+	margin-bottom: 10px;
+}
+.conteni #create{
+	width:80%;
+	height:50px;
+}
+.textcent{
+	text-align: center;
+}
+@media screen and (max-width: 991px) , handheld {
+	.middle{
+	min-height: 75vh;
+}
+}
+
+@media screen and (min-width: 992px){
+.middle{
+	align-items: center;
+	min-height: 71.5vh;
+}
+.conteni{
+	width:80%;
+}
+}
