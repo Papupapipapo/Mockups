@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>TomaHawk</title>
+    <style>
+      table, td, th {
+  			border: 1px solid black;
+        border-collapse: collapse;
+		}
+      .imatge{
+        background-image : url("backgr.jpg");
+        background-repeat: no-repeat;
+  			background-size: cover;
+      	}
+      #InfoSistema{
+        
+        display:inline-block;
+        height: 200px;
+        width : 200px;
+      }
+      #Info1{
+        
+        background-color: black;
+        display: flex;
+  			align-items: center;
+  			justify-content: center;
+      }
+       #Info2{
+         display:inline-block;
+         width:80%;
+         margin: 3%;
+         padding-left : 10px;
+         padding-top : 10px;
+         background-color:white; 
+         align-content: center; 
+         
+       }
+      
+    </style>
+  </head>
+  <body>
+    <!--Parte negrita arriba-->
+    <div style="text-align: center; width: 100%">
+      <div style="display: inline-block; width: 25%;"> 902 20 22 20</div>
+      <div style="display: inline-block; width: 15%;"> ic Cómo llegar </div>
+      <div style="display: inline-block; width: 25%;"> ic Mapa </div>
+      <div style="display: inline-block; width: 25%;"> ic Mi PortAventura </div>
+    </div>
+    <!-- Menu -->
+    <div>
+      <table style="width:100%;">
+        <tbody>
+          <tr>
+            <th rowspan="2" colspan="2" style="width: 20%;">logo </th>
+            <th style="width: 24%;">Entrades</th>
+            <th style="width: 24%;">Promocions</th>
+            <th style="width: 20%; height: 20px;">Que fer</th>
+            <th style="width: 30%; background-color: blue;" colspan="2" rowspan="2">
+              Comprar/Reservar</th>
+          </tr>
+          <tr>
+            <th>Parcs</th>
+            <th>Hotels</th>
+            <th>Entorns</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Logo i icones -->
+    <div>
+      <div class="imatge" style="text-align:center;width : 100%; height: 400px;">
+        <p style="color:white"> Aaaa </p>
+      </div>
+      <div id="InfoSistema">
+        <table>
+          <tbody>
+            <tr>
+              <th>Atracció infantil</th>
+              <th>Photoride</th>
+            </tr>
+            <tr>
+              <th>
+                <p>Alçada</p>
+                <p>Min : 1,05 m</p>
+                <p>Max; 1,85m</p>
+              </th>
+              <th>Accessibilitat</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--Informacion -->
+    <div id="Info1">
+      <div id="Info2">
+        <p dir="auto"><a href="https://www.portaventuraworld.com/ca" target="_blank">PortAventura
+            World&nbsp;</a>&gt;&nbsp;<a href="https://www.portaventuraworld.com/ca/atraccions"
+
+            target="_blank">&nbsp;Atraccions</a>&nbsp;&gt; &nbsp;<strong>Tomahawk</strong></p>
+        <p dir="auto"><strong>button COmprar entrades</strong></p>
+        <!--Img + titol + desc-->
+        <div>
+          
+        </div>
+        <p dir="auto"><strong>&nbsp;Img <br>
+          </strong></p>
+        <p dir="auto"><strong>veure galeria<br>
+          </strong></p>
+      </div>
+    </div>
+    <p></p>
+    <p><br>
+    </p>
+    
+  </body>
+</html>

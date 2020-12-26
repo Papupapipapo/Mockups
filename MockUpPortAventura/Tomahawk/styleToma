@@ -1,0 +1,4 @@
+.middle > table{
+	width :100%;
+	background-color = red;	
+}

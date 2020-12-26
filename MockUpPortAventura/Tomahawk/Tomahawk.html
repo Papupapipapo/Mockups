@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	  
+		<link href="https://fonts.googleapis.com/css?family=Notable|Roboto|Lato&display=swap" rel="stylesheet"> 
+
+		
+    <title>TomaHawk</title>
+    <style>
+		body {
+  		margin: 0;
+			font-family: 'Lato', sans-serif;
+		}
+      table, td, th {
+  			border: 1px solid black;
+        border-collapse: collapse;
+		}
+		#Menu >table, td ,th{
+			padding-bottom: 5px;
+		}
+      .imatge{
+        background-image : url("backgr.jpg");
+        background-repeat: no-repeat;
+  			background-size: cover;
+		  
+      	}
+      #InfoSistema{
+        
+        display:block;
+		float :right;
+		position: relative;
+		right:124px;
+		bottom:-205px;
+        background-color: white;
+        width : 15%;
+		height : 60%;
+		box-shadow: 0 2px 4px 0 #000001;
+		  border-radius: 20px;
+      }
+		#InfoSistema > table{
+			width:100%;
+			height:100%;
+			
+		}
+      #Info1{
+        
+        background: url("cowboys.jpg");
+		  background-size: cover;
+			
+        display: inline-block;
+  			align-items: center;
+  			justify-content: center;
+		  text-align: center;
+		  width: 100%;
+      }
+       .info2{
+         display:inline-block;
+         width:80%;
+         margin: 3%;
+         padding-left : 20px;
+         padding-top : 10px;
+         background-color:white; 
+         align-content: center; 
+		 border-radius: 20px;
+		 margin-left: 20px;
+		   text-align: left;
+         
+       }
+		#Boto{
+			display: inline-block;
+			align-items: center;
+			background: linear-gradient(90deg,#ffa500,#fa5916);
+			width:300px;
+			font-weight: bold;
+			font-size: 24px;
+			padding:13px;
+			height: 30px;
+			border-radius: 20px;
+			box-shadow: 0 2px 4px 0 #000001;
+			margin:30px;
+			font-family: 'Lato', sans-serif;
+			color: white;
+		}
+		#BotoGal{
+			position: absolute;
+			left : 32px;
+			bottom: 80px;
+			background: rgba(255, 161, 1,0.8);
+			padding:10px;
+			border-radius: 10px;
+			box-shadow: 0 2px 4px 0 #000001;
+			color:black;
+		}
+		#Gal{
+			display:inline-block;
+			width: 50%;
+			border-radius: 20px;
+		}
+		#Galtxt{
+			display: inline-block;
+			position: absolute;
+			margin-left: 20px;
+			width: 48%;
+		}
+		#Recomen{
+			height: 300px;
+			margin-left: -20px;
+			position: relative;
+		}
+		#Recomen > img{
+			float:left;
+			width:33.33333%;
+			height:100%;
+			object-fit:cover;
+			position: relative;
+		}
+		#Recomen > div{
+			width: 33.33333%;
+			left: 0;
+			text-align: center;
+			height: 100%;
+			position: absolute;
+			display: inline-block;
+			height:50px;
+			bottom:0;
+			font-size: 30px;
+			background:rgba(255, 161, 1,0.8);
+			font-weight: bold;
+			padding-top:5px;
+			color: white;
+			text-shadow: 0 2px 4px 0 black;
+		}
+		#Icons{
+			height: 30px;
+			position: relative;
+		}
+		#Icons > img{
+			width:20%;
+			height:100%;
+			padding-left: 10px;
+			position: relative;
+		}
+		#Icons > img{
+			height: 30px;
+			width:30px;
+		}
+		.icon{
+			height: 25px;
+			padding-right: 5px; 
+			margin-bottom: -7px;
+		}
+		.icontop{
+			height: 20px;
+			padding-right: 5px;
+			margin-bottom: -1px;
+		}
+		.iconinfo{
+			height: 50px;
+		}
+		.centered {
+		  position: relative;
+			float: left;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color:white;
+			font-size: 50px;
+			font-family: 'Notable', sans-serif;
+			align-content: center;
+			font-weight: bold;
+}
+    </style>
+  </head>
+  <body>
+    <!--Parte negrita arriba-->
+    <div style="text-align: center; width: 100%; height: 25px; background-color: #012330;color:white;padding-top: 5px;">
+      <div style="display: inline-block; width: 25%;">  902 20 22 20</div>
+      <div style="display: inline-block; width: 15%;"> Cómo llegar </div>
+      <div style="display: inline-block; width: 25%;"> Mapa </div>
+      <div style="display: inline-block; width: 25%;"> Mi PortAventura </div>
+    </div>
+    <!-- Menu -->
+    <div id="Menu">
+      <table style="width:100%;">
+        <tbody>
+          <tr>
+            <th rowspan="2" colspan="2" style="width: 20%;"><img src="Ico/port.png"> <img style="height:80px; padding-left: 30px;" src="Ico/Pumpkin.png"> </th>
+            <th style="width: 24%;height: 50%;"><img src="Ico/ticket.png" alt="tickets" class="icon">Entrades</th>
+            <th style="width: 24%;height: 50%;"><img src="Ico/promo.png" alt="promo" class="icon">Promocions</th>
+            <th style="width: 20%; height: 50%;"><img src="Ico/checklist.png" alt="check" class="icon">Que fer</th>
+            <th style="width: 30%; background-color:#1396d1; color:white;" colspan="2" rowspan="2">
+              Comprar/Reservar</th>
+          </tr>
+          <tr>
+            <th style="height: 50%;"><img src="Ico/park.png" alt="park" class="icon">Parcs</th>
+            <th style="height: 50%;"><img src="Ico/hotel.png" alt="hotel" class="icon">Hotels</th>
+            <th style="height: 50%;"><img src="Ico/binoculars.png" alt="binoculars" class="icon">Entorns</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Logo i icones -->
+    <div>
+      <div class="imatge" style="text-align:center;width : 100%; height: 400px; position: relative; border-bottom:solid 2px #d9d9d9;">
+		  <div class="centered">Tomahawk<br><div style="font-size:30px;">Far West</div></div>
+		  <div id="InfoSistema">
+        <table style="width: 100%;">
+          <tbody>
+            <tr>
+              <th style="width: 50%; height:50%;"><img src="Ico/roller.png" class="iconinfo"><br>Atracció infantil</th>
+              <th style="width: 50%; height:50%;"><img src="Ico/camara.png" class="iconinfo"><br>Photoride</th>
+            </tr>
+            <tr>
+              <th style="width: 50%; height:50%;">
+				  <img src="Ico/height.png" class="iconinfo"><br>
+                <p style="margin:0;">Alçada<br>
+                Min : 1,05 m<br>
+               Max; 1,85m</p>
+              </th>
+              <th style="width: 50%; height:50%;"><img src="Ico/wheel.png" class="iconinfo"><br>Accessibilitat</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+      
+    </div>
+    <!--Informacion -->
+    <div id="Info1">
+      <div class="info2">
+        <p dir="auto"><a href="https://www.portaventuraworld.com/ca" target="_blank">PortAventura
+            World&nbsp;</a>&gt;&nbsp;<a href="https://www.portaventuraworld.com/ca/atraccions"
+
+            target="_blank">&nbsp;Atraccions</a>&nbsp;&gt; &nbsp;<strong>Tomahawk</strong></p>
+		 <div style="text-align: center;"><p id="Boto">COMPRAR ENTRADES</p></div>
+        
+        
+        
+        <!--Img + titol + desc-->
+        <div style="padding-bottom: 50px; position: relative;">
+			<img id="Gal" src="Img/Living.jpg" alt="test" >
+			<div id="Galtxt">
+				<h2 style="text-align:center; font-size: 30px; margin-bottom: 5px;font-family: 'Notable', sans-serif;">Tomahawk</h2>
+				<h3 style="text-align:center; font-size: 20px; margin-top: 0px; color:#5e5e5e; ">Muntanya rusa per a tota la familia</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque .</p>
+			</div>
+			<div id="BotoGal"><img src="Ico/gallery.png" alt="gallery" class="icon">Veure Galeria</div>
+        </div>
+
+        <!--Recomendacions-->
+		  <div style="padding-top: 10px;padding-bottom: 0px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+			  <h2 style="text-align:center; font-size: 30px; margin-bottom: 5px;">Explora altres atraccions</h2>
+			  <div id="Recomen">
+				  <img style="border-bottom-left-radius: 20px;" src="Img/shambala.jpg" alt="test">
+				  <div style="border-bottom-left-radius: 20px;">Shambala</div>
+				  
+				  
+				  <img  src="Img/dragon.jpg" alt="test">
+				  <div style="left:33.3333%;">Dragon Khan</div>
+				  
+				  <img style="border-bottom-right-radius: 20px;" src="Img/tutukui.jpg" alt="test">  
+				  <div style="left:66.6666%; border-bottom-right-radius: 20px;">Tutuki Splash</div>
+				  
+			  </div>
+		    <div class="subtitol">
+				  
+				</div>
+		  </div>
+      </div>
+		
+		
+	<!--Legal i ajuda-->
+		<div class="info2" style="padding-bottom: 30px;">
+			<h2 style="width:65%;float: left; display:inline-block;">Coses legals</h2>
+			
+			<div style="width:65%;float: left;" ><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque . .</p></div>
+			<div style="width:35%;float: left;text-align: center;">
+				<h3 style="padding-bottom: 10px;"><img src="Ico/phone.png" class="icon">902 20 22 20</h3>
+				<div id="Icons">
+					<img src="Ico/whats.png" alt="whats">
+					<img src="Ico/facebook.png" alt="face">
+					<img src="Ico/tweet.png" alt="tweet">
+					<img src="Ico/insta.png" alt="insta">
+				  <img src="Ico/yourub.png" alt="youtub">
+				</div>
+			</div>
+		</div>
+		
+	<!-- Copyright-->
+		<div style="color:white;">
+			<p> Avinguda del Batlle Pere Molas, km 2, 43840 Vila-seca, Tarragona</p>
+			<p>&#x24B8; Port Aventura</p>
+		</div>
+	
+  </div>
+    
+    
+  </body>
+</html>
