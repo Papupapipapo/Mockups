@@ -1,0 +1,86 @@
+:root{
+    --greenBlue :#31DEBB;
+    --limeGreen :#36F79B;
+    --hardLimeGreen:#1d8570;
+    --softlimeGreen : #c2fce1;
+    --customGrey : #f2f2f2;
+    /* --hardPink : #f74a9c;
+    --medPink : #fa86bd;
+    --softPink : #f972b2;
+    --bckPink : #feeaf4 */
+}
+
+body{
+    background: var(--softlimeGreen);
+    font-family: 'Oxygen', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Ubuntu', sans-serif;
+    color:#310a1d;
+}
+
+.btn-hard{
+    background-color: var(--greenBlue);
+    color:black;
+}
+.navbar-brand{
+    color:var(--greenBlue) !important;
+    font-weight:bold;
+}
+.nav-link{
+    color: var(--hardLimeGreen) !important;
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+.containerP{
+    background-color:white;
+}
+/*Carrousel */
+.containerCarr {
+    padding: 0 !important;
+}
+#carouselExampleControls{
+    padding-left: -15px;
+}
+.carousel-item{
+    height:50vh;
+}
+.carousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.horizontalCenter{
+    place-items: center;
+    justify-content:center;
+    
+}
+.grow{
+    flex-grow: 1;
+}
+.listHeader li{
+    margin-right:5px;
+    margin-left:5px;
+    list-style-type: none;
+}
+#tutorials{
+    font-size: 3rem;
+}
+.footer{
+    background-color: var(--hardLimeGreen);
+}
+@media (max-width: 768px) {
+    .colifmob{
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom:10px;
+    }
+}
+.social :is(a,h2){
+    color:var(--customGrey) !important;
+}
+.social a:hover{
+    color:var(--customGrey);
+}
